@@ -15,6 +15,9 @@ Plug 'jiangmiao/auto-pairs'
 " load oxocarbon-theme
 Plug 'nyoom-engineering/oxocarbon.nvim' 
 
+" file-tree
+Plug 'scrooloose/nerdtree'
+
 " status bar plugin: vim-airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -23,4 +26,5 @@ Plug 'vim-airline/vim-airline-themes'
 " end-call for plug as plugin manager
 call plug#end()
 
+" enabling theme
 colorscheme oxocarbon
