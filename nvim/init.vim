@@ -12,9 +12,8 @@ Plug 'zchee/deoplete-jedi'
 " automatic quote and bracket completion
 Plug 'jiangmiao/auto-pairs'
 
-Plug 'ellisonleao/gruvbox.nvim'
-set background=dark
-colorscheme gruvbox
+" load oxocarbon-theme
+Plug 'nyoom-engineering/oxocarbon.nvim' 
 
 " status bar plugin: vim-airline
 Plug 'vim-airline/vim-airline'
@@ -23,3 +22,5 @@ Plug 'vim-airline/vim-airline-themes'
 " -----------------------------------
 " end-call for plug as plugin manager
 call plug#end()
+
+colorscheme oxocarbon
