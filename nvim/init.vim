@@ -28,3 +28,8 @@ call plug#end()
 
 " enabling theme
 colorscheme oxocarbon
+
+" -----------------------------------
+" bindings
+
+nnoremap <C-e> :NERDTree<CR>
